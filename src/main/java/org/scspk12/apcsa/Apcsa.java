@@ -49,6 +49,7 @@ public class Apcsa {
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(ItemGroup.BUILDING_BLOCKS);
             event.getRegistry().register(new BlockItem(ModBlocks.TRANSPORITE_BLOCK, properties).setRegistryName("transporite_block"));
+            // TEST COMMENT
         }
     }
 }
