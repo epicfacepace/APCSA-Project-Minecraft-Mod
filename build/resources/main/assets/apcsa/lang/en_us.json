@@ -1,4 +1,5 @@
 {
     "block.apcsa.transporite_block": "Transporite Block",
-    "block.apcsa.transporite_ore": "Transporite Ore"
+    "block.apcsa.transporite_ore": "Transporite Ore",
+    "item.apcsa.transporite_shards": "Transporite Shards"
 }

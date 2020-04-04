@@ -1,59 +1,58 @@
-[04Apr2020 17:05:55.859] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[04Apr2020 17:05:55.868] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[04Apr2020 17:05:56.583] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[04Apr2020 17:05:58.411] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[04Apr2020 17:06:03.291] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[04Apr2020 17:06:21.429] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[04Apr2020 17:06:23.945] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
-[04Apr2020 17:06:23.946] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
-[04Apr2020 17:06:28.035] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[04Apr2020 17:06:28.158] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[04Apr2020 17:06:28.589] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[04Apr2020 17:06:29.676] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
-[04Apr2020 17:06:39.151] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[04Apr2020 17:06:39.152] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[04Apr2020 17:06:39.409] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[04Apr2020 17:06:39.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[04Apr2020 17:06:39.458] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[04Apr2020 17:06:39.459] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[04Apr2020 17:06:39.461] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[04Apr2020 17:06:39.461] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[04Apr2020 17:06:39.462] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[04Apr2020 17:06:40.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[04Apr2020 17:06:40.606] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[04Apr2020 17:06:40.607] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[04Apr2020 17:06:41.393] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[04Apr2020 17:12:42.083] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04Apr2020 17:12:42.085] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04Apr2020 17:12:42.086] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04Apr2020 17:12:42.087] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[04Apr2020 17:12:42.088] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[04Apr2020 17:12:42.294] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[04Apr2020 17:12:42.294] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[04Apr2020 17:12:42.819] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[04Apr2020 17:12:43.377] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
-[04Apr2020 17:12:46.323] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[04Apr2020 17:12:48.184] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[04Apr2020 17:12:48.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[04Apr2020 17:12:49.372] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04Apr2020 17:12:49.372] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[04Apr2020 17:12:49.712] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 31%
-[04Apr2020 17:12:50.203] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 83%
-[04Apr2020 17:12:50.690] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[04Apr2020 17:12:51.435] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 86%
-[04Apr2020 17:12:51.461] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2777 ms
-[04Apr2020 17:12:51.664] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Apr2020 17:12:51.667] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[04Apr2020 17:12:51.675] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 17, from 10
-[04Apr2020 17:12:54.821] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[04Apr2020 17:12:55.033] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:30541dc0] logged in with entity id 1 at (642.1908519224005, 62.0, -821.6039135691959)
-[04Apr2020 17:12:55.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[04Apr2020 17:12:55.200] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[04Apr2020 17:12:55.748] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 35 advancements
-[04Apr2020 17:12:55.855] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[04Apr2020 17:12:55.865] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:12:55.892] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:12:56.177] [Server-Worker-14/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@45c2e156[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+[04Apr2020 18:30:52.312] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[04Apr2020 18:30:52.319] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
+[04Apr2020 18:30:53.056] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[04Apr2020 18:30:54.946] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[04Apr2020 18:30:59.704] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[04Apr2020 18:31:18.124] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[04Apr2020 18:31:21.229] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
+[04Apr2020 18:31:21.230] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
+[04Apr2020 18:31:24.511] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[04Apr2020 18:31:24.634] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[04Apr2020 18:31:25.031] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[04Apr2020 18:31:29.411] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
+[04Apr2020 18:31:36.029] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[04Apr2020 18:31:36.031] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[04Apr2020 18:31:36.196] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[04Apr2020 18:31:36.245] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[04Apr2020 18:31:36.246] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[04Apr2020 18:31:36.247] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[04Apr2020 18:31:36.249] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[04Apr2020 18:31:36.249] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[04Apr2020 18:31:36.250] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[04Apr2020 18:31:36.975] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[04Apr2020 18:31:36.978] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[04Apr2020 18:31:36.979] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[04Apr2020 18:31:37.718] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[04Apr2020 18:31:48.541] [Render thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Deleting level Test1
+[04Apr2020 18:31:48.542] [Render thread/INFO] [net.minecraft.world.storage.SaveFormat/]: Attempt 1...
+[04Apr2020 18:31:49.762] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04Apr2020 18:31:49.763] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Apr2020 18:31:49.764] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Apr2020 18:31:49.765] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[04Apr2020 18:31:49.767] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[04Apr2020 18:31:49.950] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[04Apr2020 18:31:49.950] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[04Apr2020 18:31:50.153] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[04Apr2020 18:31:50.507] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[04Apr2020 18:31:52.338] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[04Apr2020 18:31:54.644] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[04Apr2020 18:31:55.111] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[04Apr2020 18:31:55.808] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04Apr2020 18:31:55.838] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[04Apr2020 18:31:56.121] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 71%
+[04Apr2020 18:31:56.218] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1104 ms
+[04Apr2020 18:31:56.454] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[04Apr2020 18:31:56.455] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[04Apr2020 18:31:56.459] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[04Apr2020 18:31:58.904] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[04Apr2020 18:31:59.081] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:ca2cb263] logged in with entity id 3 at (234.4190842360353, 13.0, -229.6975279029724)
+[04Apr2020 18:31:59.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[04Apr2020 18:31:59.238] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[04Apr2020 18:31:59.553] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[04Apr2020 18:31:59.555] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Apr2020 18:31:59.573] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
+[04Apr2020 18:31:59.727] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 35 advancements
+[04Apr2020 18:32:01.079] [Server-Worker-11/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@15222527[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
@@ -75,118 +74,21 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_241]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_241]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_241]
-[04Apr2020 17:12:56.377] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:12:58.125] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:12:58.136] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:12:58.138] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:13:53.119] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:13:53.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:13:53.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:14:39.464] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[04Apr2020 17:14:39.475] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Spectator Mode
-[04Apr2020 17:14:46.620] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:14:46.627] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:14:46.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:14:51.870] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 17
-[04Apr2020 17:15:08.170] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:15:08.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:15:08.181] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:15:39.820] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:15:39.829] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:15:39.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:15:57.319] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:15:57.326] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:15:57.328] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:18:10.969] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:18:10.978] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:18:10.980] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:19:46.920] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:19:46.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:19:46.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:20:30.970] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:20:30.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:20:30.979] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:21:46.270] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:21:46.276] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:21:46.278] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:22:17.221] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:22:17.227] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:22:17.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:23:25.119] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:23:25.126] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:23:25.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:23:49.701] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2582ms or 51 ticks behind
-[04Apr2020 17:24:02.769] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:24:02.777] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:24:02.779] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:24:28.119] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:24:28.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:24:28.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:24:39.745] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:24:39.751] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:24:39.752] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:25:12.619] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:25:12.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:25:12.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:25:46.269] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:25:46.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:25:46.277] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:28:20.170] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:28:20.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:28:20.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:30:54.016] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:30:54.022] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:30:54.023] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:36:51.470] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:36:51.477] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:36:51.479] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:37:13.919] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:37:13.925] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:37:13.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:37:28.170] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:37:28.179] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:37:28.180] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 17:43:59.721] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 17:43:59.727] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 17:43:59.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 18:01:09.669] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:01:09.675] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:01:09.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 18:01:25.960] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2191ms or 43 ticks behind
-[04Apr2020 18:02:30.421] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Changed the block at -401, 84, 2046]
-[04Apr2020 18:02:30.435] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Changed the block at -401, 84, 2046
-[04Apr2020 18:02:32.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[04Apr2020 18:02:32.527] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
-[04Apr2020 18:03:02.819] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:03:02.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:03:02.827] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 18:03:37.877] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
-[04Apr2020 18:03:41.997] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev fell out of the world
-[04Apr2020 18:03:42.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Killed Dev]
-[04Apr2020 18:03:42.014] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Dev fell out of the world
-[04Apr2020 18:03:42.015] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Killed Dev
-[04Apr2020 18:03:43.283] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:03:43.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:03:43.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:the_end
-[04Apr2020 18:03:45.092] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[04Apr2020 18:04:01.040] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Saved screenshot as 2020-04-04_18.04.00.png
-[04Apr2020 18:06:10.419] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:06:10.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:06:26.469] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:06:26.474] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:06:36.519] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:06:36.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:07:08.620] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:07:08.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:07:15.820] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[04Apr2020 18:07:15.825] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:08:58.471] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[04Apr2020 18:08:58.472] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[04Apr2020 18:08:58.482] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[04Apr2020 18:08:58.524] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[04Apr2020 18:08:58.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[04Apr2020 18:08:58.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[04Apr2020 18:08:58.525] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
-[04Apr2020 18:08:58.566] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (APCSA Mod): All chunks are saved
-[04Apr2020 18:08:58.581] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (APCSA Mod): All chunks are saved
-[04Apr2020 18:09:00.298] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[04Apr2020 18:32:09.138] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Your game mode has been updated to Survival Mode
+[04Apr2020 18:32:11.502] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Apr2020 18:32:11.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
+[04Apr2020 18:32:27.002] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Apr2020 18:32:27.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
+[04Apr2020 18:32:51.712] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Your game mode has been updated to Creative Mode
+[04Apr2020 18:33:09.852] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[04Apr2020 18:33:09.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
+[04Apr2020 18:33:14.404] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[04Apr2020 18:33:14.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[04Apr2020 18:33:14.418] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[04Apr2020 18:33:14.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[04Apr2020 18:33:14.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[04Apr2020 18:33:14.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[04Apr2020 18:33:14.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'APCSA Mod'/minecraft:overworld
+[04Apr2020 18:33:14.462] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (APCSA Mod): All chunks are saved
+[04Apr2020 18:33:14.479] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (APCSA Mod): All chunks are saved
+[04Apr2020 18:33:15.215] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

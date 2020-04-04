@@ -7,12 +7,7 @@
             "entries": [
                 {
                     "type": "minecraft:item",
-                    "name": "minecraft:flint"
-                }
-            ],
-            "conditions": [
-                {
-                    "condition": "minecraft:survives_explosion"
+                    "name": "apcsa:transporite_shards"
                 }
             ]
         }

@@ -24,9 +24,9 @@ gamma:1.0
 renderDistance:12
 guiScale:4
 particles:0
-maxFps:60
+maxFps:150
 difficulty:2
-fancyGraphics:false
+fancyGraphics:true
 ao:2
 biomeBlendRadius:2
 renderClouds:true
@@ -38,7 +38,7 @@ chatVisibility:0
 chatOpacity:1.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
-fullscreenResolution:1920x1080@60:24
+fullscreenResolution:2560x1440@144:24
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true
