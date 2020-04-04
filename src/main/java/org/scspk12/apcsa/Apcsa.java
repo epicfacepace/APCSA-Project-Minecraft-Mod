@@ -20,6 +20,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.scspk12.apcsa.blocks.ModBlocks;
 import org.scspk12.apcsa.blocks.TransporiteBlock;
+import org.scspk12.apcsa.blocks.TransporiteOre;
 import org.scspk12.apcsa.setup.ModSetup;
 
 import java.util.stream.Collectors;
@@ -43,13 +44,14 @@ public class Apcsa {
         @SubscribeEvent
         public static void onBlocksRegistry(final RegistryEvent.Register<Block> event) {
             event.getRegistry().register(new TransporiteBlock());
+            event.getRegistry().register(new TransporiteOre());
         }
 
         @SubscribeEvent
         public static void onItemsRegistry(final RegistryEvent.Register<Item> event) {
             Item.Properties properties = new Item.Properties().group(ItemGroup.BUILDING_BLOCKS);
             event.getRegistry().register(new BlockItem(ModBlocks.TRANSPORITE_BLOCK, properties).setRegistryName("transporite_block"));
-            // TEST COMMENT
+            event.getRegistry().register(new BlockItem(ModBlocks.TRANSPORITE_ORE, properties).setRegistryName("transporite_ore"));
         }
     }
 }
