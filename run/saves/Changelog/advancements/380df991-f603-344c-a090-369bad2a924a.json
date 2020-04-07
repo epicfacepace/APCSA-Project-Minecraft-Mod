@@ -45,8 +45,10 @@
     "criteria": {
       "minecraft:jungle_edge": "2020-04-04 22:21:45 -0500",
       "minecraft:forest": "2020-04-04 22:21:51 -0500",
+      "minecraft:mountains": "2020-04-05 18:22:23 -0500",
       "minecraft:jungle": "2020-04-04 22:20:06 -0500",
       "minecraft:river": "2020-04-04 22:21:44 -0500",
+      "minecraft:swamp": "2020-04-05 18:22:20 -0500",
       "minecraft:plains": "2020-04-04 22:21:46 -0500"
     },
     "done": false
