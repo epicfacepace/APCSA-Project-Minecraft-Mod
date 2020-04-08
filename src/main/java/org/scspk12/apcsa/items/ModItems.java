@@ -7,4 +7,6 @@ public class ModItems {
     public static TransporiteShards TRANSPORITE_SHARDS;
     @ObjectHolder("apcsa:transporite_plates")
     public static TransporiteShards TRANSPORITE_PLATES;
+    @ObjectHolder("apcsa:wrench")
+    public static TransporiteShards WRENCH;
 }

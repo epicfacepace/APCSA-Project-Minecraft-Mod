@@ -1,13 +1,13 @@
 {
-  "minecraft:recipes/transportation/acacia_boat": {
+  "minecraft:recipes/misc/iron_ingot_from_iron_block": {
     "criteria": {
-      "in_water": "2020-04-04 22:22:14 -0500"
+      "has_iron_block": "2020-04-07 19:32:24 -0500"
     },
     "done": true
   },
-  "minecraft:recipes/transportation/oak_boat": {
+  "minecraft:recipes/redstone/redstone": {
     "criteria": {
-      "in_water": "2020-04-04 22:22:14 -0500"
+      "has_redstone_block": "2020-04-07 19:32:28 -0500"
     },
     "done": true
   },
@@ -20,6 +20,36 @@
   "minecraft:recipes/transportation/birch_boat": {
     "criteria": {
       "in_water": "2020-04-04 22:22:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2020-04-07 19:32:40 -0500"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2020-04-04 22:25:20 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2020-04-04 22:22:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2020-04-04 22:22:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/anvil": {
+    "criteria": {
+      "has_iron_block": "2020-04-07 19:32:24 -0500"
     },
     "done": true
   },
@@ -52,12 +82,6 @@
       "minecraft:plains": "2020-04-04 22:21:46 -0500"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2020-04-04 22:25:20 -0500"
-    },
-    "done": true
   },
   "DataVersion": 2230
 }

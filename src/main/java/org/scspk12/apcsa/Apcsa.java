@@ -23,6 +23,7 @@ import org.scspk12.apcsa.blocks.TransporiteBlock;
 import org.scspk12.apcsa.blocks.TransporiteOre;
 import org.scspk12.apcsa.items.TransporitePlates;
 import org.scspk12.apcsa.items.TransporiteShards;
+import org.scspk12.apcsa.items.Wrench;
 import org.scspk12.apcsa.setup.ModSetup;
 
 import java.util.stream.Collectors;
@@ -56,6 +57,7 @@ public class Apcsa {
             event.getRegistry().register(new BlockItem(ModBlocks.TRANSPORITE_ORE, properties).setRegistryName("transporite_ore"));
             event.getRegistry().register(new TransporiteShards());
             event.getRegistry().register(new TransporitePlates());
+            event.getRegistry().register(new Wrench());
         }
     }
 }
