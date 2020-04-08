@@ -1,6 +1,7 @@
 {
     "block.apcsa.transporite_block": "Block of Transporite",
     "block.apcsa.transporite_ore": "Transporite Ore",
+    "block.apcsa.infuser": "Infuser",
     "item.apcsa.transporite_shards": "Transporite Shards",
     "item.apcsa.transporite_plates": "Transporite Plates",
     "item.apcsa.wrench": "Wrench",

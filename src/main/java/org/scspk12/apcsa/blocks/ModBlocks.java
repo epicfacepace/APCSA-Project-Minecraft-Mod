@@ -7,4 +7,6 @@ public class ModBlocks {
     public static TransporiteBlock TRANSPORITE_BLOCK;
     @ObjectHolder("apcsa:transporite_ore")
     public static TransporiteOre TRANSPORITE_ORE;
+    @ObjectHolder("apcsa:infuser")
+    public static Infuser INFUSER;
 }

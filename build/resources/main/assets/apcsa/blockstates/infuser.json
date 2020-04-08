@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "facing=north" : { "model":  "apcsa:block/infuser" },
+        "facing=south" : { "model":  "apcsa:block/infuser", "y": 180 },
+        "facing=west" : { "model":  "apcsa:block/infuser", "y": 270 },
+        "facing=east" : { "model":  "apcsa:block/infuser", "y": 90 },
+        "facing=up" : { "model":  "apcsa:block/infuser", "x": -90 },
+        "facing=down" : { "model":  "apcsa:block/infuser", "x": 90 }
+    }
+}
