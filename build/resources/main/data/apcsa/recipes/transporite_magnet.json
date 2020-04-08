@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "T T",
+        "O O",
+        "OOO"
+    ],
+    "key": {
+        "T": {
+            "item": "apcsa:transporite_block"
+        },
+        "O": {
+            "item": "minecraft:obsidian"
+        }
+    },
+    "result": {
+        "item": "apcsa:transporite_magnet"
+    }
+}

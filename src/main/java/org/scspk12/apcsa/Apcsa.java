@@ -21,6 +21,7 @@ import org.apache.logging.log4j.Logger;
 import org.scspk12.apcsa.blocks.ModBlocks;
 import org.scspk12.apcsa.blocks.TransporiteBlock;
 import org.scspk12.apcsa.blocks.TransporiteOre;
+import org.scspk12.apcsa.items.TransporiteMagnet;
 import org.scspk12.apcsa.items.TransporitePlates;
 import org.scspk12.apcsa.items.TransporiteShards;
 import org.scspk12.apcsa.items.Wrench;
@@ -58,6 +59,7 @@ public class Apcsa {
             event.getRegistry().register(new TransporiteShards());
             event.getRegistry().register(new TransporitePlates());
             event.getRegistry().register(new Wrench());
+            event.getRegistry().register(new TransporiteMagnet());
         }
     }
 }
