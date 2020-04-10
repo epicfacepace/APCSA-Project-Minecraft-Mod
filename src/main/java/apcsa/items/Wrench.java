@@ -1,4 +1,4 @@
-package org.scspk12.apcsa.items;
+package apcsa.items;
 
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;

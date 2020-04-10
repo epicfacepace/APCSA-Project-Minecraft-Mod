@@ -1,48 +1,34 @@
-package org.scspk12.apcsa;
+package apcsa;
 
+import apcsa.blocks.TransporiteOre;
 import net.minecraft.block.Block;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.InterModComms;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
-import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
-import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.scspk12.apcsa.blocks.Infuser;
-import org.scspk12.apcsa.blocks.ModBlocks;
-import org.scspk12.apcsa.blocks.TransporiteBlock;
-import org.scspk12.apcsa.blocks.TransporiteOre;
-import org.scspk12.apcsa.items.TransporiteMagnet;
-import org.scspk12.apcsa.items.TransporitePlates;
-import org.scspk12.apcsa.items.TransporiteShards;
-import org.scspk12.apcsa.items.Wrench;
-import org.scspk12.apcsa.setup.ModSetup;
-
-import java.util.stream.Collectors;
+import apcsa.blocks.Infuser;
+import apcsa.blocks.ModBlocks;
+import apcsa.blocks.TransporiteBlock;
+import apcsa.items.TransporiteMagnet;
+import apcsa.items.TransporitePlates;
+import apcsa.items.TransporiteShards;
+import apcsa.items.Wrench;
 
 @Mod("apcsa")
 public class Apcsa {
-    public static ModSetup setup = new ModSetup();
-
     private static final Logger LOGGER = LogManager.getLogger();
 
     public Apcsa() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
     }
 
-    private void setup(final FMLCommonSetupEvent event) {
-        setup.init();
-    }
+    private void setup(final FMLCommonSetupEvent event) { }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {

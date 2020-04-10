@@ -1,4 +1,4 @@
-package org.scspk12.apcsa.items;
+package apcsa.items;
 
 import net.minecraftforge.registries.ObjectHolder;
 
