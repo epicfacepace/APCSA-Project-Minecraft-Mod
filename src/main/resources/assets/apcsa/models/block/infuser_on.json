@@ -1,0 +1,9 @@
+{
+    "parent": "block/orientable",
+    "textures": {
+        "top": "apcsa:block/infuser_top",
+        "front": "apcsa:block/infuser_front_on",
+        "bottom": "apcsa:block/infuser_bottom",
+        "side": "apcsa:block/infuser_side"
+    }
+}
