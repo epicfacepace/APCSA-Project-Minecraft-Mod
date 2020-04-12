@@ -2,12 +2,11 @@ package apcsa;
 
 import apcsa.block.TransporiteOre;
 import apcsa.inventory.container.InfuserContainer;
+import apcsa.item.*;
 import apcsa.tileentity.InfuserTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.container.ContainerType;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
+import net.minecraft.item.*;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
@@ -20,10 +19,6 @@ import org.apache.logging.log4j.Logger;
 import apcsa.block.Infuser;
 import apcsa.block.ModBlock;
 import apcsa.block.TransporiteBlock;
-import apcsa.item.TransporiteMagnet;
-import apcsa.item.TransporitePlates;
-import apcsa.item.TransporiteShards;
-import apcsa.item.Wrench;
 
 @Mod("apcsa")
 public class Apcsa {
@@ -56,6 +51,11 @@ public class Apcsa {
             event.getRegistry().register(new TransporitePlates());
             event.getRegistry().register(new Wrench());
             event.getRegistry().register(new TransporiteMagnet());
+            event.getRegistry().register(new SwordItem(ModItemTier.TRANSPORITE, 3, -2.4F, (new Item.Properties()).group(ItemGroup.COMBAT)).setRegistryName("transporite_sword"));
+            event.getRegistry().register(new PickaxeItem(ModItemTier.TRANSPORITE, 1, -2.8F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_pickaxe"));
+            event.getRegistry().register(new ShovelItem(ModItemTier.TRANSPORITE, 1.5F, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_shovel"));
+            event.getRegistry().register(new AxeItem(ModItemTier.TRANSPORITE, 5.0F, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_axe"));
+            event.getRegistry().register(new HoeItem(ModItemTier.TRANSPORITE, 0.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_hoe"));
         }
 
         @SubscribeEvent

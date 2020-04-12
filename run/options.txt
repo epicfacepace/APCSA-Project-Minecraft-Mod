@@ -14,14 +14,14 @@ reducedDebugInfo:false
 snooperEnabled:false
 showSubtitles:false
 touchscreen:false
-fullscreen:false
+fullscreen:true
 bobView:true
 toggleCrouch:false
 toggleSprint:false
 mouseSensitivity:0.5
 fov:0.0
 gamma:1.0
-renderDistance:2
+renderDistance:12
 guiScale:0
 particles:0
 maxFps:150
@@ -40,7 +40,7 @@ textBackgroundOpacity:0.5
 backgroundForChatOnly:true
 fullscreenResolution:2560x1440@144:24
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 overrideWidth:0
 overrideHeight:0

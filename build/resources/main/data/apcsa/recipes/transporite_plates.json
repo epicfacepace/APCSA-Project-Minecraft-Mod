@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "apcsa:transporite_block"
+        }
+    ],
+    "result": {
+        "item": "apcsa:transporite_plates",
+        "count": 9
+    }
+}

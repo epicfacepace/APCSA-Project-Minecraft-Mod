@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "P",
+        "P",
+        "S"
+    ],
+    "key": {
+        "S": {
+            "item": "minecraft:stick"
+        },
+        "P": {
+            "item": "apcsa:transporite_plates"
+        }
+    },
+    "result": {
+        "item": "apcsa:transporite_sword"
+    }
+}

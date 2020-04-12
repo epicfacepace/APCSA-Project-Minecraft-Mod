@@ -5,5 +5,10 @@
     "item.apcsa.transporite_shards": "Transporite Shards",
     "item.apcsa.transporite_plates": "Transporite Plates",
     "item.apcsa.wrench": "Wrench",
-    "item.apcsa.transporite_magnet": "Transporite Magnet"
+    "item.apcsa.transporite_magnet": "Transporite Magnet",
+    "item.apcsa.transporite_sword": "Transporite Sword",
+    "item.apcsa.transporite_pickaxe": "Transporite Pickaxe",
+    "item.apcsa.transporite_shovel": "Transporite Shovel",
+    "item.apcsa.transporite_axe": "Transporite Axe",
+    "item.apcsa.transporite_hoe": "Transporite Hoe"
 }
