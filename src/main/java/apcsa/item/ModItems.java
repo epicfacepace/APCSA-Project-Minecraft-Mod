@@ -22,4 +22,12 @@ public class ModItems {
     public static AxeItem TRANSPORITE_AXE;
     @ObjectHolder("apcsa:transporite_hoe")
     public static HoeItem TRANSPORITE_HOE;
+    @ObjectHolder("apcsa:transporite_helmet")
+    public static ArmorItem TRANSPORITE_HELMET;
+    @ObjectHolder("apcsa:transporite_chestplate")
+    public static ArmorItem TRANSPORITE_CHESTPLATE;
+    @ObjectHolder("apcsa:transporite_leggings")
+    public static ArmorItem TRANSPORITE_LEGGINGS;
+    @ObjectHolder("apcsa:transporite_boots")
+    public static ArmorItem TRANSPORITE_BOOTS;
 }

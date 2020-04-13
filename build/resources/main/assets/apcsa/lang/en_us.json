@@ -10,5 +10,9 @@
     "item.apcsa.transporite_pickaxe": "Transporite Pickaxe",
     "item.apcsa.transporite_shovel": "Transporite Shovel",
     "item.apcsa.transporite_axe": "Transporite Axe",
-    "item.apcsa.transporite_hoe": "Transporite Hoe"
+    "item.apcsa.transporite_hoe": "Transporite Hoe",
+    "item.apcsa.transporite_helmet": "Transporite Helmet",
+    "item.apcsa.transporite_chestplate": "Transporite Chestplate",
+    "item.apcsa.transporite_leggings": "Transporite Leggings",
+    "item.apcsa.transporite_boots": "Transporite Boots"
 }

@@ -5,6 +5,7 @@ import apcsa.inventory.container.InfuserContainer;
 import apcsa.item.*;
 import apcsa.tileentity.InfuserTileEntity;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
 import net.minecraft.tileentity.TileEntityType;
@@ -56,6 +57,10 @@ public class Apcsa {
             event.getRegistry().register(new ShovelItem(ModItemTier.TRANSPORITE, 1.5F, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_shovel"));
             event.getRegistry().register(new AxeItem(ModItemTier.TRANSPORITE, 5.0F, -3.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_axe"));
             event.getRegistry().register(new HoeItem(ModItemTier.TRANSPORITE, 0.0F, (new Item.Properties()).group(ItemGroup.TOOLS)).setRegistryName("transporite_hoe"));
+            event.getRegistry().register(new ArmorItem(ModArmorMaterial.TRANSPORITE, EquipmentSlotType.HEAD, (new Item.Properties()).group(ItemGroup.COMBAT)).setRegistryName("transporite_helmet"));
+            event.getRegistry().register(new ArmorItem(ModArmorMaterial.TRANSPORITE, EquipmentSlotType.CHEST, (new Item.Properties()).group(ItemGroup.COMBAT)).setRegistryName("transporite_chestplate"));
+            event.getRegistry().register(new ArmorItem(ModArmorMaterial.TRANSPORITE, EquipmentSlotType.LEGS, (new Item.Properties()).group(ItemGroup.COMBAT)).setRegistryName("transporite_leggings"));
+            event.getRegistry().register(new ArmorItem(ModArmorMaterial.TRANSPORITE, EquipmentSlotType.FEET, (new Item.Properties()).group(ItemGroup.COMBAT)).setRegistryName("transporite_boots"));
         }
 
         @SubscribeEvent

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "apcsa:transporite_plates"
+        }
+    },
+    "result": {
+        "item": "apcsa:transporite_helmet"
+    }
+}
