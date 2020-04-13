@@ -1,13 +1,22 @@
 package apcsa;
 
 import apcsa.block.TransporiteOre;
+import apcsa.inventory.container.AbstractInfuserContainer;
 import apcsa.inventory.container.InfuserContainer;
 import apcsa.item.*;
+import apcsa.item.crafting.InfuserRecipe;
+import apcsa.item.crafting.ModCookingRecipeSerializer;
+import apcsa.setup.ClientProxy;
+import apcsa.setup.ModSetup;
 import apcsa.tileentity.InfuserTileEntity;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.inventory.container.ContainerType;
 import net.minecraft.item.*;
+import net.minecraft.item.crafting.CookingRecipeSerializer;
+import net.minecraft.item.crafting.IRecipe;
+import net.minecraft.item.crafting.IRecipeSerializer;
+import net.minecraft.item.crafting.IRecipeType;
 import net.minecraft.tileentity.TileEntityType;
 import net.minecraftforge.common.extensions.IForgeContainerType;
 import net.minecraftforge.event.RegistryEvent;
@@ -15,8 +24,6 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import apcsa.block.Infuser;
 import apcsa.block.ModBlock;
 import apcsa.block.TransporiteBlock;
@@ -24,13 +31,17 @@ import apcsa.block.TransporiteBlock;
 @Mod("apcsa")
 public class Apcsa {
 
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static ModSetup setup = new ModSetup();
+    public static ClientProxy proxy = new ClientProxy();
 
     public Apcsa() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
     }
 
-    private void setup(final FMLCommonSetupEvent event) { }
+    private void setup(final FMLCommonSetupEvent event) {
+        setup.init();
+        proxy.init();
+    }
 
     @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
     public static class RegistryEvents {
@@ -73,6 +84,11 @@ public class Apcsa {
             event.getRegistry().register(IForgeContainerType.create((windowId, inv, data) -> {
                 return new InfuserContainer(windowId, inv);
             }).setRegistryName("infuser"));
+        }
+
+        @SubscribeEvent
+        public static void onRecipeRegistry(final RegistryEvent.Register<IRecipeSerializer<?>> event) {
+            event.getRegistry().register(new ModCookingRecipeSerializer<>(InfuserRecipe::new, 200).setRegistryName("infusing"));
         }
     }
 }

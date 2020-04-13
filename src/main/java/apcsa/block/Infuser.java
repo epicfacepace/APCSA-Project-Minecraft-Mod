@@ -26,7 +26,7 @@ import net.minecraftforge.api.distmarker.OnlyIn;
 import javax.annotation.Nullable;
 import java.util.Random;
 
-public class Infuser extends AbstractFurnaceBlock {
+public class Infuser extends AbstractInfuserBlock {
 
     public Infuser() {
         super(Block.Properties.create(Material.ROCK)

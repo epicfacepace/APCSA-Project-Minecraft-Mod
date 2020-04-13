@@ -1,5 +1,6 @@
 package apcsa.tileentity;
 
+import apcsa.inventory.container.AbstractInfuserContainer;
 import apcsa.inventory.container.InfuserContainer;
 import net.minecraft.entity.player.PlayerInventory;
 import net.minecraft.inventory.container.Container;
@@ -11,18 +12,18 @@ import net.minecraft.util.text.TranslationTextComponent;
 
 import static apcsa.block.ModBlock.INFUSER_TILE;
 
-public class InfuserTileEntity extends AbstractFurnaceTileEntity {
+public class InfuserTileEntity extends AbstractInfuserTileEntity {
 
     public InfuserTileEntity() {
         super(INFUSER_TILE, IRecipeType.BLASTING);
     }
 
     protected ITextComponent getDefaultName() {
-        return new TranslationTextComponent("container.infuser");
+        return new TranslationTextComponent("Infuser");
     }
 
     protected int getBurnTime(ItemStack p_213997_1_) {
-        return super.getBurnTime(p_213997_1_) / 2;
+        return 1600;
     }
 
     protected Container createMenu(int id, PlayerInventory player) {
