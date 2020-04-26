@@ -38,7 +38,6 @@ chatVisibility:0
 chatOpacity:1.0
 textBackgroundOpacity:0.5
 backgroundForChatOnly:true
-fullscreenResolution:2560x1440@144:24
 hideServerAddress:false
 advancedItemTooltips:false
 pauseOnLostFocus:true

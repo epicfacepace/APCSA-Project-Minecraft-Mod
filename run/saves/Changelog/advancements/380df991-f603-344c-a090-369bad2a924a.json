@@ -113,6 +113,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_stairs_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/ladder": {
     "criteria": {
       "has_stick": "2020-04-11 22:57:51 -0500"
@@ -164,6 +170,12 @@
   "minecraft:recipes/misc/gold_ingot_from_blasting": {
     "criteria": {
       "has_gold_ore": "2020-04-12 20:29:14 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_stairs": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
     },
     "done": true
   },
@@ -245,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_axe": {
     "criteria": {
       "has_gold_ingot": "2020-04-12 20:45:42 -0500"
@@ -272,6 +290,12 @@
   "minecraft:recipes/decorations/brown_carpet_from_white_carpet": {
     "criteria": {
       "has_brown_dye": "2020-04-13 17:56:09 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2020-04-25 16:04:56 -0500"
     },
     "done": true
   },
@@ -350,6 +374,12 @@
   "minecraft:recipes/misc/iron_nugget_from_blasting": {
     "criteria": {
       "has_iron_pickaxe": "2020-04-11 22:51:49 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2020-04-25 16:05:42 -0500"
     },
     "done": true
   },
@@ -437,6 +467,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_slab": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_pickaxe": {
     "criteria": {
       "has_stick": "2020-04-11 22:57:51 -0500"
@@ -521,6 +557,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/purpur_pillar": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/pink_wool": {
     "criteria": {
       "has_white_wool": "2020-04-13 17:59:56 -0500"
@@ -535,8 +577,13 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2020-04-25 16:05:36 -0500",
+      "minecraft:creeper": "2020-04-25 16:05:40 -0500",
+      "minecraft:wither_skeleton": "2020-04-25 16:04:55 -0500",
       "minecraft:shulker": "2020-04-13 17:39:41 -0500",
-      "minecraft:enderman": "2020-04-11 22:51:34 -0500"
+      "minecraft:enderman": "2020-04-11 22:51:34 -0500",
+      "minecraft:zombie": "2020-04-25 16:04:21 -0500",
+      "minecraft:drowned": "2020-04-25 16:04:10 -0500"
     },
     "done": false
   },
@@ -627,6 +674,12 @@
   "minecraft:recipes/transportation/rail": {
     "criteria": {
       "has_minecart": "2020-04-13 17:50:01 -0500"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/purpur_slab_from_purpur_block_stonecutting": {
+    "criteria": {
+      "has_purpur_block": "2020-04-25 16:00:03 -0500"
     },
     "done": true
   },

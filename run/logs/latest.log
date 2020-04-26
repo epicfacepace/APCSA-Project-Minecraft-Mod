@@ -1,59 +1,57 @@
-[13Apr2020 16:43:45.620] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[13Apr2020 16:43:45.627] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
-[13Apr2020 16:43:46.267] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
-[13Apr2020 16:43:48.003] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
-[13Apr2020 16:43:52.741] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[13Apr2020 16:44:10.223] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
-[13Apr2020 16:44:13.196] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
-[13Apr2020 16:44:13.196] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
-[13Apr2020 16:44:18.106] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
-[13Apr2020 16:44:18.220] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[13Apr2020 16:44:18.582] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[13Apr2020 16:44:19.793] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
-[13Apr2020 16:44:27.387] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
-[13Apr2020 16:44:27.387] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
-[13Apr2020 16:44:27.559] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[13Apr2020 16:44:27.599] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
-[13Apr2020 16:44:27.599] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[13Apr2020 16:44:27.599] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[13Apr2020 16:44:27.601] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[13Apr2020 16:44:27.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[13Apr2020 16:44:27.602] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[13Apr2020 16:44:28.346] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[13Apr2020 16:44:28.348] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[13Apr2020 16:44:28.349] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[13Apr2020 16:44:29.175] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[13Apr2020 16:44:40.329] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Apr2020 16:44:40.331] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Apr2020 16:44:40.332] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Apr2020 16:44:40.333] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
-[13Apr2020 16:44:40.334] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
-[13Apr2020 16:44:40.526] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
-[13Apr2020 16:44:40.527] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
-[13Apr2020 16:44:41.293] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
-[13Apr2020 16:44:41.712] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
-[13Apr2020 16:44:43.368] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
-[13Apr2020 16:44:45.191] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
-[13Apr2020 16:44:46.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[13Apr2020 16:44:47.831] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Apr2020 16:44:47.853] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Apr2020 16:44:47.853] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Apr2020 16:44:48.082] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
-[13Apr2020 16:44:48.527] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 63%
-[13Apr2020 16:44:48.775] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 2310 ms
-[13Apr2020 16:44:49.379] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[13Apr2020 16:44:49.381] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Apr2020 16:44:49.386] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
-[13Apr2020 16:44:52.223] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
-[13Apr2020 16:44:52.467] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:8782c3c0] logged in with entity id 194 at (998.0181835776308, 63.0, 332.1198366841836)
-[13Apr2020 16:44:53.207] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[13Apr2020 16:44:53.280] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[13Apr2020 16:44:54.130] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
-[13Apr2020 16:44:54.131] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 16:44:54.154] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 16:44:54.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 16:44:54.272] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 99 advancements
-[13Apr2020 16:44:54.533] [Server-Worker-3/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@17e10ef6[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
+[25Apr2020 16:20:39.185] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--gameDir, ., --launchTarget, fmluserdevclient, --fml.mcpVersion, 20200122.131323, --fml.mcVersion, 1.15.2, --fml.forgeGroup, net.minecraftforge, --fml.forgeVersion, 31.1.0, --version, MOD_DEV, --assetIndex, 1.15, --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25Apr2020 16:20:39.192] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 5.0.0-milestone.4+67+b1a340b starting: java version 1.8.0_241 by Oracle Corporation
+[25Apr2020 16:20:39.847] [main/INFO] [net.minecraftforge.fml.loading.FixSSL/CORE]: Added Lets Encrypt root certificates as additional trust
+[25Apr2020 16:20:41.580] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'fmluserdevclient' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\epicfacepace\.gradle\caches\forge_gradle\assets, --assetIndex, 1.15, --username, Dev, --accessToken, ????????, --userProperties, {}]
+[25Apr2020 16:20:45.993] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[25Apr2020 16:21:04.002] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.2.2 build 10
+[25Apr2020 16:21:07.103] [modloading-worker-1/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 31.1.0, for MC 1.15.2 with MCP 20200122.131323
+[25Apr2020 16:21:07.103] [modloading-worker-1/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v31.1.0 Initialized
+[25Apr2020 16:21:10.752] [Render thread/INFO] [com.mojang.text2speech.NarratorWindows/]: Narrator library for x64 successfully loaded
+[25Apr2020 16:21:10.881] [Render thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[25Apr2020 16:21:11.270] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[25Apr2020 16:21:14.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 31.1.0 Target: null
+[25Apr2020 16:21:21.464] [Render thread/INFO] [net.minecraft.client.audio.SoundSystem/]: OpenAL initialized.
+[25Apr2020 16:21:21.465] [Render thread/INFO] [net.minecraft.client.audio.SoundEngine/SOUNDS]: Sound engine started
+[25Apr2020 16:21:21.643] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[25Apr2020 16:21:21.685] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x4 minecraft:textures/atlas/signs.png-atlas
+[25Apr2020 16:21:21.686] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[25Apr2020 16:21:21.687] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[25Apr2020 16:21:21.688] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[25Apr2020 16:21:21.688] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[25Apr2020 16:21:21.689] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[25Apr2020 16:21:22.519] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[25Apr2020 16:21:22.522] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[25Apr2020 16:21:22.523] [Render thread/INFO] [net.minecraft.client.renderer.texture.AtlasTexture/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[25Apr2020 16:21:23.330] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[25Apr2020 16:21:35.843] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Apr2020 16:21:35.844] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Apr2020 16:21:35.845] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Apr2020 16:21:35.847] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[25Apr2020 16:21:35.848] [Render thread/WARN] [net.minecraft.command.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[25Apr2020 16:21:36.054] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Starting integrated minecraft server version 1.15.2
+[25Apr2020 16:21:36.055] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Generating keypair
+[25Apr2020 16:21:36.316] [Server thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this SERVER instance
+[25Apr2020 16:21:36.698] [Server thread/INFO] [net.minecraft.resources.SimpleReloadableResourceManager/]: Reloading ResourceManager: Default, main, forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar
+[25Apr2020 16:21:38.406] [Server thread/INFO] [net.minecraft.item.crafting.RecipeManager/]: Loaded 6 recipes
+[25Apr2020 16:21:40.901] [Server thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 825 advancements
+[25Apr2020 16:21:41.615] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[25Apr2020 16:21:42.910] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Apr2020 16:21:42.910] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Apr2020 16:21:42.910] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 0%
+[25Apr2020 16:21:43.349] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Preparing spawn area: 42%
+[25Apr2020 16:21:43.671] [Render thread/INFO] [net.minecraft.world.chunk.listener.LoggingChunkStatusListener/]: Time elapsed: 1928 ms
+[25Apr2020 16:21:44.325] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[25Apr2020 16:21:44.327] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Apr2020 16:21:44.331] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Changing view distance to 11, from 10
+[25Apr2020 16:21:47.856] [Netty Local Client IO #0/INFO] [net.minecraftforge.fml.network.NetworkHooks/]: Connected to a modded server.
+[25Apr2020 16:21:48.095] [Server thread/INFO] [net.minecraft.server.management.PlayerList/]: Dev[local:E:f6c7ebae] logged in with entity id 191 at (1023.456896982516, 76.0, 340.45501937339947)
+[25Apr2020 16:21:48.157] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[25Apr2020 16:21:48.225] [Render thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[25Apr2020 16:21:48.616] [Server thread/ERROR] [net.minecraftforge.fml.network.simple.IndexedMessageCodec/SIMPLENET]: Received empty payload on channel fml:handshake
+[25Apr2020 16:21:48.618] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:21:48.650] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:21:48.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:21:49.228] [Server-Worker-5/WARN] [com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService/]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@6413224f[id=380df991-f603-344c-a090-369bad2a924a,name=Dev,properties={},legacy=false]
 com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
 	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[authlib-1.5.25.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) ~[authlib-1.5.25.jar:?]
@@ -75,706 +73,41 @@ com.mojang.authlib.exceptions.AuthenticationException: The client has sent too m
 	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056) [?:1.8.0_241]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692) [?:1.8.0_241]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:157) [?:1.8.0_241]
-[13Apr2020 16:44:55.399] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2646ms or 52 ticks behind
-[13Apr2020 16:45:57.653] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 16:45:57.664] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 16:45:57.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:09:02.348] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:04.152] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:09:04.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:09:04.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:09:18.444] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:27.816] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:30.541] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:49.287] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:49.841] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:54.336] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:55.345] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:09:58.846] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:01.893] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:10.603] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:19.994] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:22.650] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:24.137] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:25.341] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:32.648] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:39.051] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:10:44.944] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:11:00.142] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:11:11.187] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:11:20.302] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:11:20.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:11:20.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:11:36.081] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:11:37.252] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:11:37.258] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:11:37.288] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:12:47.703] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:12:47.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:12:47.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:17:25.636] [Render thread/FATAL] [net.minecraft.util.concurrent.ThreadTaskExecutor/]: Error executing task on Client
-java.lang.IndexOutOfBoundsException: Index: 39, Size: 39
-	at java.util.ArrayList.rangeCheck(ArrayList.java:657) ~[?:1.8.0_241]
-	at java.util.ArrayList.get(ArrayList.java:433) ~[?:1.8.0_241]
-	at net.minecraft.inventory.container.Container.getSlot(Container.java:161) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.inventory.container.Container.setAll(Container.java:462) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.network.play.ClientPlayNetHandler.handleWindowItems(ClientPlayNetHandler.java:1186) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:58) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.play.server.SWindowItemsPacket.processPacket(SWindowItemsPacket.java:13) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.network.PacketThreadUtil.lambda$checkThreadAndEnqueue$0(PacketThreadUtil.java:19) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.run(ThreadTaskExecutor.java:140) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.RecursiveEventLoop.run(RecursiveEventLoop.java:22) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.driveOne(ThreadTaskExecutor.java:110) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.util.concurrent.ThreadTaskExecutor.drainTasks(ThreadTaskExecutor.java:97) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:930) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:554) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:177) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_241]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_241]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_241]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_241]
-	at net.minecraftforge.userdev.FMLUserdevClientLaunchProvider.lambda$launchService$0(FMLUserdevClientLaunchProvider.java:55) ~[forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:37) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:54) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:72) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:81) [modlauncher-5.0.0-milestone.4.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:65) [modlauncher-5.0.0-milestone.4.jar:?]
-	at net.minecraftforge.userdev.LaunchTesting.main(LaunchTesting.java:102) [forge-1.15.2-31.1.0_mapped_snapshot_20190719-1.14.3-recomp.jar:?]
-[13Apr2020 17:17:57.454] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:17:57.460] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:17:57.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:18:19.552] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:18:19.557] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:18:19.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:19:31.152] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:19:31.159] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:19:31.247] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:21:18.703] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:21:18.710] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:21:18.828] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:23:20.752] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:23:20.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:23:20.820] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:29:59.054] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:29:59.060] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:29:59.171] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:30:39.815] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 106 advancements
-[13Apr2020 17:30:59.052] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:30:59.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:30:59.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:31:57.761] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 107 advancements
-[13Apr2020 17:34:56.152] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:34:56.158] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:34:56.291] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:36:33.602] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:36:33.609] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:36:33.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:39:41.609] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 107 advancements
-[13Apr2020 17:41:45.902] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:41:45.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:41:46.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:42:43.517] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 108 advancements
-[13Apr2020 17:47:03.853] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:47:03.858] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:47:03.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:49:39.854] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:49:39.859] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:49:39.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:50:01.554] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 113 advancements
-[13Apr2020 17:50:02.913] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 116 advancements
-[13Apr2020 17:50:04.703] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:50:04.713] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:50:04.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:53:31.052] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 17:53:31.058] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 17:53:31.163] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 17:56:09.259] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 118 advancements
-[13Apr2020 17:59:55.365] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 121 advancements
-[13Apr2020 17:59:55.561] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 125 advancements
-[13Apr2020 17:59:56.106] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 143 advancements
-[13Apr2020 18:01:55.353] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 18:01:55.361] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 18:01:55.493] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 18:04:53.404] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
-[13Apr2020 18:04:53.414] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 18:04:53.450] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 18:04:54.161] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
-[13Apr2020 18:04:54.161] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[13Apr2020 18:04:54.168] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
-[13Apr2020 18:04:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[13Apr2020 18:04:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[13Apr2020 18:04:54.219] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[13Apr2020 18:04:54.220] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
-[13Apr2020 18:04:54.431] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Apr2020 18:04:54.431] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
-[13Apr2020 18:04:54.683] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Changelog): All chunks are saved
-[13Apr2020 18:04:54.699] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[13Apr2020 18:04:54.758] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Changelog): All chunks are saved
-[13Apr2020 18:04:55.591] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[25Apr2020 16:21:50.076] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2128ms or 42 ticks behind
+[25Apr2020 16:21:50.081] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 151 advancements
+[25Apr2020 16:21:52.106] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:21:52.118] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:21:52.222] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:22:18.498] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:22:18.508] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:22:18.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:22:50.598] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:22:50.606] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:22:50.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:24:16.248] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:24:16.254] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:24:16.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:24:32.349] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:24:32.358] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:24:32.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:24:46.369] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[25Apr2020 16:24:46.381] [Render thread/INFO] [net.minecraft.client.gui.NewChatGui/]: [CHAT] Set own game mode to Creative Mode
+[25Apr2020 16:30:54.549] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:30:54.554] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:30:54.588] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:35:13.000] [Server thread/INFO] [net.minecraft.server.integrated.IntegratedServer/]: Saving and pausing game...
+[25Apr2020 16:35:13.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:35:13.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:35:13.607] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Dev lost connection: Disconnected
+[25Apr2020 16:35:13.607] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[25Apr2020 16:35:13.613] [Server thread/INFO] [net.minecraft.network.play.ServerPlayNetHandler/]: Stopping singleplayer server as player logged out
+[25Apr2020 16:35:13.656] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[25Apr2020 16:35:13.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[25Apr2020 16:35:13.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[25Apr2020 16:35:13.657] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:the_end
+[25Apr2020 16:35:13.711] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Apr2020 16:35:13.711] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'Changelog'/minecraft:overworld
+[25Apr2020 16:35:13.915] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Changelog): All chunks are saved
+[25Apr2020 16:35:13.927] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[25Apr2020 16:35:13.939] [Server thread/INFO] [net.minecraft.world.server.ChunkManager/]: ThreadedAnvilChunkStorage (Changelog): All chunks are saved
+[25Apr2020 16:35:15.491] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

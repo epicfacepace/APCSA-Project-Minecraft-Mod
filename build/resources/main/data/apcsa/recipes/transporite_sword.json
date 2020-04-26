@@ -3,11 +3,11 @@
     "pattern": [
         "P",
         "P",
-        "S"
+        "O"
     ],
     "key": {
-        "S": {
-            "item": "minecraft:stick"
+        "O": {
+            "item": "minecraft:obsidian"
         },
         "P": {
             "item": "apcsa:transporite_plates"
