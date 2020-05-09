@@ -9,7 +9,7 @@ public class ModItems {
     @ObjectHolder("apcsa:transporite_plates")
     public static TransporitePlates TRANSPORITE_PLATES;
     @ObjectHolder("apcsa:wrench")
-    public static Wrench WRENCH;
+    public static WrenchItem WRENCH;
     @ObjectHolder("apcsa:transporite_magnet")
     public static TransporiteMagnet TRANSPORITE_MAGNET;
     @ObjectHolder("apcsa:transporite_sword")
